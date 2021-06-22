@@ -60,7 +60,7 @@ Button(root, text="0", fg="red", command=lambda: SetExpression("0"), height=4, w
 Button(root, text=".", fg="red", command=lambda: SetExpression("."), height=4, width=8).grid(row=4, column=1, pady=10)
 
 # Adding the "=" button which will calculate and show the answer
-Button(root, text="=", fg="red", command=calculator, height=4, width=8).grid(row=4, column=3, pady=10)
+Button(root, text="=", fg="red", command=Calculator, height=4, width=8).grid(row=4, column=3, pady=10)
 
 # Adding the clear button which will call the clear() function
 Button(root, text="Clear", fg="red", command=clear, height=4, width=20).grid(row=5, column=1, pady=10)
