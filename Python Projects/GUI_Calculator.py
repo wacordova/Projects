@@ -20,7 +20,7 @@ def SetExpression(num):
 def Calculator():
     try:
         global expression
-        Answer = str(eval(expression))
+        answer = str(eval(expression))
         value.set(answer)
     except:
         value.set("Enter an expression")
