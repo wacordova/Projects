@@ -13,7 +13,6 @@ HEIGHT = 500
 WIDTH = 500
 FONT = font.Font(family ="Comic Sans MS", size ="9", weight ="bold")
 
-#functions
 def clear():
     entry.delete(0,END)
     label_down["text"] = ""
